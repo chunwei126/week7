@@ -1,0 +1,88 @@
+.title {
+  font-size: 32px;
+}
+
+.title > span {
+  font-size: 24px;
+  color: #a00404;
+  margin-left: 16px;
+}
+
+.profile {
+  width: 960px;
+  margin: 0 auto 72px auto;
+}
+
+.profile .info {
+  margin-bottom: 24px;
+}
+
+.profile .textcontent {
+  font-size: 24px;
+}
+
+.education,
+.workExperience {
+  width: 960px;
+  margin: 0 auto 72px auto;
+}
+
+.education .list {
+  font-size: 24px;
+}
+
+.education .list li {
+  margin-bottom: 24px;
+}
+
+.skills {
+  background-color: #415165;
+  margin-top: 72px;
+  color: white;
+  text-align: center;
+}
+
+.skills .container {
+  width: 996px;
+  text-align: center;
+  margin: 0 auto 72px auto;
+  padding: 20px 0 30px 0;
+}
+
+.skills .list {
+  display: inline-block;
+  text-align: left;
+  border-left: 1px solid white;
+  padding-left: 2.5%;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.skills .list li {
+  margin-bottom: 5px;
+}
+
+.workExperience .item {
+  border-left: 2px solid #c5c5c5;
+  padding-left: 2%;
+  margin-left: 2%;
+  padding-bottom: 24px;
+}
+
+.workExperience .item:nth-last-child(1) {
+  padding-bottom: 0;
+}
+
+.workExperience .item .companyIcon {
+  margin: 8px 0;
+}
+
+.workExperience .item .experience {
+  font-size: 24px;
+}
+
+.workExperience .textcontent {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=index.css.map */
